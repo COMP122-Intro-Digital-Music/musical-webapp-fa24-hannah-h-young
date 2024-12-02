@@ -1,1 +1,49 @@
-[ ]
+[
+  {
+    "name": "next room over",
+    "type": "Synth",
+    "settings": {
+      "volume": "0",
+      "detune": "5",
+      "portamento": "1.5",
+      "envelope": {
+        "attack": "0.10",
+        "attackCurve": "ripple",
+        "decay": "0.30",
+        "decayCurve": "exponential",
+        "release": "0.50",
+        "releaseCurve": "bounce",
+        "sustain": "0.3"
+      },
+      "oscillator": {
+        "partialCount": "2",
+        "phase": 0,
+        "type": "triangle2"
+      }
+    }
+  },
+  {
+    "name": "electric fly swatter",
+    "type": "Synth",
+    "settings": {
+      "volume": "0",
+      "detune": "10",
+      "portamento": "0.2",
+      "envelope": {
+        "attack": "0",
+        "attackCurve": "linear",
+        "decay": "0.4",
+        "decayCurve": "exponential",
+        "release": "2",
+        "releaseCurve": "ripple",
+        "sustain": "0.7"
+      },
+      "oscillator": {
+        "partialCount": "0",
+        "partials": [],
+        "phase": 0,
+        "type": "sawtooth"
+      }
+    }
+  }
+]
